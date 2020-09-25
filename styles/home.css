@@ -1,1 +1,47 @@
-/* add home page styles here */
+/* align on page with box around it
+    color background
+    color and round off buttons
+    prettify */
+
+main {
+    width: auto;
+    height: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.add-button {
+    color: blue;
+    background-color: rgba(128, 128, 128, 0.281);
+    width: 40px;
+    height: 40px;
+    font-size: xx-large;
+    border-radius: 5px;
+}
+
+.sub-button {
+    color: rgb(255, 0, 43);
+    background-color: rgba(128, 128, 128, 0.281);
+    width: 40px;
+    height: 40px;
+    font-size: xx-large;
+    border-radius: 5px;
+}
+
+.mul-button {
+    color: seagreen;
+    background-color: rgba(128, 128, 128, 0.281);
+    width: 40px;
+    height: 40px;
+    font-size: xx-large;
+    border-radius: 5px;
+}
+
+.div-button {
+    color: salmon;
+    background-color: rgba(128, 128, 128, 0.281);
+    width: 40px;
+    height: 40px;
+    font-size: xx-large;
+    border-radius: 5px;
+}
