@@ -23,23 +23,35 @@
             <img class="main-logo" src="assets/alchemy-logo.png"/>
             <main>
                 <section>
-                    <h4>
-                        Click the function you want to calculate! Results generated below.
-                    </h4>
-                    <input type="number"id="input-1"/>
-                        <div>
-                            <button id="add-button" class="add-button">
-                                +
-                            <button id="sub-button" class="sub-button">
-                                -
-                            <button id="mul-button" class="mul-button">
-                                *
-                            <button id="div-button" class="div-button">
-                                /
-                        </div>
-                    <input type="number" id="input-2"/>
-                    <div id="results">
-                    </div>
+                    <input type="number" id="add-input-1"/>
+                    +
+                    <input type="number" id="add-input-2" />
+                    <button id="add-button">Add</button>
+                    <div id="add-results"></div>
+                </section>
+        
+                <section>
+                    <input type="number" id="sub-input-1"/>
+                    -
+                    <input type="number" id="sub-input-2" />
+                    <button id="sub-button">Subtract</button>
+                    <div id="sub-results"></div>
+                </section>
+                
+                <section>
+                    <input type="number" id="div-input-1"/>
+                    /
+                    <input type="number" id="div-input-2" />
+                    <button id="div-button">Divide</button>
+                    <div id="div-results"></div>
+                </section>
+        
+                <section>
+                    <input type="number" id="mul-input-1"/>
+                    *
+                    <input type="number" id="mul-input-2" />
+                    <button id="mul-button">Multiply</button>
+                    <div id="mul-results"></div>
                 </section>
             </main>
         </section>

@@ -1,19 +1,15 @@
-export function add(thingOne, thingTwo) {
-    return thingOne + thingTwo;
+export function add(addInput1, addInput2) {
+    return addInput1 + addInput2;
 }
 
-export function sub(thingOne, thingTwo) {
-    return thingOne - thingTwo;
+export function subtract(subInput1, subInput2) {
+    return subInput1 - subInput2;
 }
 
-export function mul(thingOne, thingTwo) {
-    return thingOne * thingTwo;
+export function divide(divInput1, divInput2) {
+    return divInput1 / divInput2;
 }
 
-export function div(thingOne, thingTwo) {
-    return thingOne / thingTwo;
+export function multiply(mulInput1, mulInput2) {
+    return mulInput1 * mulInput2;
 }
-
-// the benefits of testing
-// if someone in the future changes the behavior of the function, the tests won't pass
-// if you have github set up right, then passing tests is a requirement of merging code into master
